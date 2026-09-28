@@ -139,7 +139,7 @@ const TEXT = {
   svcH:        { kz: "Не істеймін", en: "What I do", ru: "Что я делаю" },
   svcSub:      { kz: "Идеядан жариялауға дейін", en: "From idea to publishing", ru: "От идеи до публикации" },
   portrait:    { kz: "Портрет", en: "Portrait", ru: "Портрет" },
-  aboutH:      { kz: "Сәлем, мен Аты", en: "Hi, I'm Name", ru: "Привет, я Имя" },
+  aboutH:      { kz: "Сәлем, менің есімім Дияр", en: "Hi, I'm Diyar", ru: "Привет, я Дияр" },
   aboutLead:   { kz: "Алматыда тұратын видеографпын. Музыкант достарыма клип түсіруден бастадым, қазір брендтер мен әртістерге жарнама мен клип түсіріп, контент жасаймын.",
                  en: "Videographer based in Almaty. I started out shooting music videos for musician friends; now I make ads, music videos and content for brands and artists.",
                  ru: "Видеограф из Алматы. Начинал с клипов для друзей-музыкантов, сейчас снимаю рекламу, клипы и контент для брендов и артистов." },
