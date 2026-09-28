@@ -47,29 +47,26 @@ const PROJECTS = [
     stills: []               // ["images/p1-1.jpg", "images/p1-2.jpg"]
   },
   {
-    title: { kz: "Абайдағы таң", en: "Morning on Abay", ru: "Утро на Абая" },
+    title: { kz: "salseri yandex studio", en: "salseri yandex studio", ru: "salseri yandex studio" },
     type: { kz: "Жарнама", en: "Commercial", ru: "Реклама" },
-    client: { kz: "Кофехана", en: "Coffee shop", ru: "Кофейня" },
+    client: { kz: "SALSERI", en: "SALSERI", ru: "SALSERI" },
     year: 2026,
-    video: "vimeo:76979871",
+    video: "youtube:https://youtube.com/shorts/ZYG1uvJKExE",
     full: true,              // false — только тизер + «Полная версия по запросу»
     thumb: "",
     preview: "",
     tone: "#6a2f1c",
     roles: { kz: "Оператор, монтаж", en: "DP, edit", ru: "Оператор, монтаж" },
-    description: {
-      kz: "Әлеуметтік желілерге арналған ролик. Бір күнде, тек табиғи жарықпен түсірдік.",
-      en: "A spot for social media. One shoot day, natural light only.",
-      ru: "Ролик для соцсетей. Один съёмочный день, только естественный свет."
+   
     },
     stills: []
   },
   {
-    title: { kz: "ALPHA concert", en: "ALPHA concert", ru: "ALPHA concert" },
+    title: { kz: "ORDA concert", en: "ORDA concert", ru: "ORDA concert" },
     type: { kz: "Backstage", en: "Backstage", ru: "Backstage" },
     client: { kz: "SOLDOUT concerts", en: "SOLDOUT concerts", ru: "SOLDOUT concerts" },
     year: 2025,
-    video: "youtube:F420ODzQZgo",
+    video: "youtube:dGX0NZis3_Y",
     full: true,              // false — только тизер + «Полная версия по запросу»
     thumb: "",
     preview: "",
