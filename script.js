@@ -21,21 +21,17 @@ const CLIENTS = ["Comic-Con Astana", "INSIDER Kazakhstan", "Kunzharyq", "Orda", 
 
 const PROJECTS = [
   {
-    title: { kz: "Тыныш қала", en: "Quiet City", ru: "Тихий город" },
+    title: { kz: "Backstage for ALPHA", en: "Backstage for ALPHA", ru: "Backstage for ALPHA" },
     type: { kz: "Музыкалық клип", en: "Music video", ru: "Музыкальный клип" },
-    client: { kz: "Орындаушы", en: "Artist", ru: "Артист" },
+    client: { kz: "ALPHA", en: "ALPHA", ru: "ALPHA" },
     year: 2026,
     duration: "00:03:42",
-    video: "vimeo:76979871",
+    video: "https://youtu.be/B82OR6r9dBk?si=svdJKBWMGc1i2ydR",
     thumb: "",               // "images/project-1.jpg"
     preview: "",             // "assets/project-1.mp4"
     tone: "#1c2c52",
     roles: { kz: "Режиссёр, оператор, монтаж, түс түзету", en: "Director, DP, edit, color", ru: "Режиссёр, оператор, монтаж, цвет" },
-    description: {
-      kz: "Үш локацияда түсірілген түнгі клип. Тек көше шамдары мен екі LED-түтіктің жарығын пайдаландық.",
-      en: "A night-time video across three locations. Shot on street light and two light tubes.",
-      ru: "Ночной клип на трёх локациях. Снимали на уличном свете и двух трубках."
-    },
+    
     stills: []               // ["images/p1-1.jpg", "images/p1-2.jpg"]
   },
   {
