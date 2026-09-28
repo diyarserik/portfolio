@@ -25,7 +25,6 @@ const PROJECTS = [
     type: { kz: "Музыкалық клип", en: "Music video", ru: "Музыкальный клип" },
     client: { kz: "ALPHA", en: "ALPHA", ru: "ALPHA" },
     year: 2026,
-    duration: "00:03:42",
     video: "youtube:svdJKBWMGc1i2ydR",
     thumb: "",               // "images/project-1.jpg"
     preview: "",             // "assets/project-1.mp4"
@@ -39,7 +38,6 @@ const PROJECTS = [
     type: { kz: "Жарнама", en: "Commercial", ru: "Реклама" },
     client: { kz: "Кофехана", en: "Coffee shop", ru: "Кофейня" },
     year: 2026,
-    duration: "00:00:45",
     video: "vimeo:76979871",
     thumb: "",
     preview: "",
@@ -53,21 +51,15 @@ const PROJECTS = [
     stills: []
   },
   {
-    title: { kz: "Құмырашы", en: "The Potter", ru: "Гончар" },
-    type: { kz: "Деректі фильм", en: "Documentary", ru: "Документальное" },
-    client: { kz: "Жеке жоба", en: "Personal project", ru: "Личный проект" },
+    title: { kz: "ALPHA concert", en: "ALPHA concert", ru: "ALPHA concert" },
+    type: { kz: "Backstage", en: "Backstage", ru: "Backstage" },
+    client: { kz: "SOLDOUT concerts", en: "SOLDOUT concerts", ru: "SOLDOUT concerts" },
     year: 2025,
-    duration: "00:06:10",
-    video: "vimeo:76979871",
+    video: "youtube:F420ODzQZgo",
     thumb: "",
     preview: "",
     tone: "#2d3b2f",
     roles: { kz: "Идея, түсірілім, монтаж, түс түзету", en: "Concept, camera, edit, color", ru: "Идея, съёмка, монтаж, цвет" },
-    description: {
-      kz: "Отыз жылдан бері бір шеберханада еңбек етіп келе жатқан шебер туралы алты минуттық фильм.",
-      en: "Six minutes about a craftsman who has worked in the same workshop for thirty years.",
-      ru: "Шесть минут о мастере, который тридцать лет работает в одной мастерской."
-    },
     stills: []
   }
 ];
