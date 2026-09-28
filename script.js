@@ -37,7 +37,7 @@ const PROJECTS = [
     type: { kz: "Music video backstage", en: "Music video backstage", ru: "Music video backstage" },
     client: { kz: "ALPHA", en: "ALPHA", ru: "ALPHA" },
     year: 2026,
-    video: "youtube:3Y4rjvkeWgikqwgY",
+    video: "youtube:https://youtu.be/B82OR6r9dBk",
     full: true,              // false — только тизер + «Полная версия по запросу»
     thumb: "",               // "images/project-1.jpg"
     preview: "",             // "assets/project-1.mp4"
@@ -83,7 +83,7 @@ const SERVICES = [
   {
     name: { kz: "Идея", en: "Concept", ru: "Идея" },
     text: {
-      kz: "Брендіңіз қалай бейнелеуді ойластырамын: концепция, сценарий, раскадровка, референстер.",
+      kz: "Брендіңізді қалай бейнелеуді ойластырамын: концепция, сценарий, раскадровка, референстер.",
       en: "I work out how to tell your story: concept, script, storyboard, references.",
       ru: "Придумываю, как рассказать о вас: концепция, сценарий, раскадровка, референсы."
     }
