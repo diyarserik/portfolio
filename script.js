@@ -73,7 +73,7 @@ const PROJECTS = [
     tone: "#2d3b2f",
     roles: { kz: "Идея, түсірілім, монтаж, түс түзету", en: "Concept, camera, edit, color", ru: "Идея, съёмка, монтаж, цвет" },
     stills: []
-  }
+  
 ];
 
 const SERVICES = [
