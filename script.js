@@ -22,10 +22,10 @@ const CLIENTS = ["Comic-Con Astana", "INSIDER Kazakhstan", "Kunzharyq", "Orda", 
 const PROJECTS = [
   {
     title: { kz: "Backstage for ALPHA", en: "Backstage for ALPHA", ru: "Backstage for ALPHA" },
-    type: { kz: "Музыкалық клип", en: "Music video", ru: "Музыкальный клип" },
+    type: { kz: "Music video backstage", en: "Music video backstage", ru: "Music video backstage" },
     client: { kz: "ALPHA", en: "ALPHA", ru: "ALPHA" },
     year: 2026,
-    video: "youtube:svdJKBWMGc1i2ydR",
+    video: "youtube:k4uRnVL4o1c52Fed",
     thumb: "",               // "images/project-1.jpg"
     preview: "",             // "assets/project-1.mp4"
     tone: "#1c2c52",
