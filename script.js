@@ -14,10 +14,10 @@
 
 const DEFAULT_LANG = "en";
 const SHOWREEL = "vimeo:76979871";
-const EMAIL = "hello@example.com";
+const EMAIL = "diyar.sky7777@gmail.com";
 
 // Заглушки — замени на реальных клиентов
-const CLIENTS = ["Tau Coffee", "Jibek Records", "Nomad Wear", "Dala Studio", "Almaty Jazz", "Steppe Run", "Kök Market"];
+const CLIENTS = ["Comic-Con Astana", "INSIDER Kazakhstan", "Kunzharyq", "Orda", "Kezen", "Madi Rymbaeyv", "ALPHA", "Almaz Merzhakypov"];
 
 const PROJECTS = [
   {
@@ -80,7 +80,7 @@ const SERVICES = [
   {
     name: { kz: "Идея", en: "Concept", ru: "Идея" },
     text: {
-      kz: "Брендіңіз туралы қалай әңгімелеп беруді ойластырамын: концепция, сценарий, раскадровка, референстер.",
+      kz: "Брендіңіз қалай бейнелеуді ойластырамын: концепция, сценарий, раскадровка, референстер.",
       en: "I work out how to tell your story: concept, script, storyboard, references.",
       ru: "Придумываю, как рассказать о вас: концепция, сценарий, раскадровка, референсы."
     }
@@ -96,15 +96,15 @@ const SERVICES = [
   {
     name: { kz: "Постпродакшн", en: "Post-production", ru: "Постпродакшн" },
     text: {
-      kz: "Монтаж, түс түзету, саунд-дизайн және графика. Әр кадрды мұқият пысықтаймын.",
+      kz: "Монтаж, түс түзету, саунд-дизайн және графика. Әр кадрды мұқият дайындаймын.",
       en: "Editing, color grading, sound design and graphics. Every frame gets finished.",
       ru: "Монтаж, цветокоррекция, саунд-дизайн и графика. Довожу каждый кадр."
     }
   },
   {
-    name: { kz: "Жылжыту", en: "Promotion", ru: "Продвижение" },
+    name: { kz: "Promotion", en: "Promotion", ru: "Продвижение" },
     text: {
-      kz: "Reels пен TikTok үшін қысқа нұсқалар, мұқабалар және жариялау жоспары, бейнеңізді көбірек адам көруі үшін.",
+      kz: "Бейнеңізді көбірек адам көруі үшінReels пен TikTok үшін қысқа нұсқалар, мұқабалар және жариялау жоспары",
       en: "Cut-downs for Reels and TikTok, covers and a posting plan, so the videos get watched.",
       ru: "Нарезки под Reels и TikTok, обложки и план публикаций, чтобы видео смотрели."
     }
@@ -113,8 +113,8 @@ const SERVICES = [
 
 // Тексты страницы
 const TEXT = {
-  name:        { kz: "Аты-жөні", en: "Name Surname", ru: "Имя Фамилия" },
-  pageTitle:   { kz: "Аты-жөні — видеограф", en: "Name Surname — videographer", ru: "Имя Фамилия — видеограф" },
+  name:        { kz: "Дияр Серік", en: "Diyar Serik", ru: "Дияр Серік" },
+  pageTitle:   { kz: "Дияр Серік — видеограф", en: "Diyar Serik — videographer", ru: "Дияр Серік — видеограф" },
   pageDesc:    { kz: "Алматыда бейне түсіру және әлеуметтік желілерге контент жасау: идея, түсірілім, монтаж, жылжыту.",
                  en: "Video production and social media content in Almaty: concept, production, post, promotion.",
                  ru: "Видеопродакшн и контент для соцсетей в Алматы: идея, съёмка, постпродакшн, продвижение." },
