@@ -25,7 +25,7 @@ const PROJECTS = [
     type: { kz: "Music video backstage", en: "Music video backstage", ru: "Music video backstage" },
     client: { kz: "ALPHA", en: "ALPHA", ru: "ALPHA" },
     year: 2026,
-    video: "youtube:k4uRnVL4o1c52Fed",
+    video: "youtube:B82OR6r9dBk",
     thumb: "",               // "images/project-1.jpg"
     preview: "",             // "assets/project-1.mp4"
     tone: "#1c2c52",
