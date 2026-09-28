@@ -13,7 +13,7 @@
    ========================================================= */
 
 const DEFAULT_LANG = "en";
-const SHOWREEL = "vimeo:76979871";
+const SHOWREEL = "youtube:p1L0u-ibDrQ";
 const EMAIL = "diyar.sky7777@gmail.com";
 
 // Заглушки — замени на реальных клиентов
