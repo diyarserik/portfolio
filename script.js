@@ -26,7 +26,7 @@ const PROJECTS = [
     client: { kz: "ALPHA", en: "ALPHA", ru: "ALPHA" },
     year: 2026,
     duration: "00:03:42",
-    video: "https://youtu.be/B82OR6r9dBk?si=svdJKBWMGc1i2ydR",
+    video: "youtube:svdJKBWMGc1i2ydR",
     thumb: "",               // "images/project-1.jpg"
     preview: "",             // "assets/project-1.mp4"
     tone: "#1c2c52",
