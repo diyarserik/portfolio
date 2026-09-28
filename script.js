@@ -58,7 +58,7 @@ const PROJECTS = [
     tone: "#6a2f1c",
     roles: { kz: "Оператор, монтаж", en: "DP, edit", ru: "Оператор, монтаж" },
    
-    },
+    
     stills: []
   },
   {
