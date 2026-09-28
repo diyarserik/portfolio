@@ -57,8 +57,6 @@ const PROJECTS = [
     preview: "",
     tone: "#6a2f1c",
     roles: { kz: "Оператор, монтаж", en: "DP, edit", ru: "Оператор, монтаж" },
-   
-    
     stills: []
   },
   {
@@ -73,7 +71,7 @@ const PROJECTS = [
     tone: "#2d3b2f",
     roles: { kz: "Идея, түсірілім, монтаж, түс түзету", en: "Concept, camera, edit, color", ru: "Идея, съёмка, монтаж, цвет" },
     stills: []
-  
+  }
 ];
 
 const SERVICES = [
@@ -215,6 +213,10 @@ const thumbUrl = p => {
   const { host, id } = parse(p.video);
   return host === "youtube" ? `https://i.ytimg.com/vi/${id}/maxresdefault.jpg` : `https://vumbnail.com/${id}.jpg`;
 };
+const thumbFallback = p => {
+  const { host, id } = parse(p.video);
+  return !p.thumb && host === "youtube" ? `https://i.ytimg.com/vi/${id}/hqdefault.jpg` : "";
+};
 
 PROJECTS.concat([{ video: SHOWREEL }]).forEach(p => {
   const { host, id } = parse(p.video);
@@ -250,7 +252,7 @@ function render() {
     <button class="card${i === 0 ? " wide" : ""}" type="button" data-i="${i}" data-cursor="${esc(t("watch"))}">
       <div class="card-media" style="--tone:${esc(p.tone || "#222")};--lx:${25 + i * 22}%">
         <div class="tone"></div>
-        <img src="${esc(thumbUrl(p))}" alt="" loading="lazy" onerror="this.remove()">
+        <img src="${esc(thumbUrl(p))}" data-fb="${esc(thumbFallback(p))}" alt="" loading="lazy" onload="if(this.naturalWidth<=120&&this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.remove()}">
         ${p.preview ? `<video src="${esc(p.preview)}" muted loop playsinline preload="none"></video>` : ""}
         <div class="card-hud mono"><span class="rec">Play</span><span>${[p.full === false ? esc(t("teaser")) : "", p.duration ? esc(p.duration) + ":00" : ""].filter(Boolean).join(" / ")}</span></div>
       </div>
